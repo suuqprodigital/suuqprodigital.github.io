@@ -3,121 +3,472 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SuuqPro Digital</title>
+
+<title>SuuqPro Digital | Digital Marketing Agency</title>
+
+<meta name="description" content="SuuqPro Digital waa Digital Marketing Agency caawisa ganacsiyada Soomaaliyeed inay ku koraan online.">
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;color:#222}
-header{background:#111;color:white;padding:20px;text-align:center}
-.logo{font-size:28px;font-weight:bold}
-nav{margin-top:12px}
-nav a{color:white;text-decoration:none;margin:0 10px}
-
-.hero{
-padding:90px 20px;
-text-align:center;
-background:#222;
-color:white
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
-.hero h1{font-size:45px;margin-bottom:15px}
-.hero p{font-size:20px;margin-bottom:25px}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial, sans-serif;
+  color:#222;
+  background:#fff;
+  line-height:1.7;
+}
+
+/* HEADER */
+header{
+  background:#111;
+  color:white;
+  padding:18px 7%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.logo{
+  font-size:25px;
+  font-weight:bold;
+}
+
+.logo span{
+  color:#e83e8c;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  font-weight:bold;
+}
+
+nav a:hover{
+  color:#e83e8c;
+}
+
+/* HERO */
+.hero{
+  background:linear-gradient(135deg,#111,#333);
+  color:white;
+  text-align:center;
+  padding:100px 20px;
+}
+
+.hero h1{
+  font-size:50px;
+  margin-bottom:15px;
+}
+
+.hero h1 span{
+  color:#e83e8c;
+}
+
+.hero p{
+  font-size:20px;
+  max-width:750px;
+  margin:0 auto 30px;
+}
 
 .btn{
-display:inline-block;
-background:#e83e8c;
-color:white;
-padding:14px 25px;
-border-radius:8px;
-text-decoration:none;
-font-weight:bold
+  display:inline-block;
+  background:#e83e8c;
+  color:white;
+  padding:14px 28px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+  margin:5px;
 }
 
-section{padding:60px 20px}
-.title{text-align:center;font-size:32px;margin-bottom:35px}
+.btn:hover{
+  background:#c92d75;
+}
 
+/* SECTIONS */
+section{
+  padding:70px 7%;
+}
+
+.title{
+  text-align:center;
+  font-size:34px;
+  margin-bottom:40px;
+}
+
+.title span{
+  color:#e83e8c;
+}
+
+/* SERVICES */
 .services{
-max-width:1000px;
-margin:auto;
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:20px
+  max-width:1100px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
 }
 
 .card{
-padding:30px;
-border:1px solid #ddd;
-border-radius:12px;
-text-align:center
+  padding:30px;
+  border:1px solid #ddd;
+  border-radius:12px;
+  text-align:center;
+  background:white;
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+  transition:.3s;
 }
 
-.card h3{margin-bottom:12px}
+.card:hover{
+  transform:translateY(-7px);
+}
 
+.card h3{
+  margin-bottom:12px;
+  color:#111;
+}
+
+/* ABOUT */
 .about{
-max-width:800px;
-margin:auto;
-text-align:center
+  background:#f6f6f6;
 }
 
+.about-content{
+  max-width:850px;
+  margin:auto;
+  text-align:center;
+}
+
+.about-content p{
+  margin-bottom:18px;
+}
+
+/* WHY US */
+.features{
+  max-width:1000px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+
+.feature{
+  text-align:center;
+  padding:25px;
+}
+
+.feature h3{
+  margin:10px 0;
+}
+
+/* CONTACT */
 .contact{
-background:#111;
-color:white;
-text-align:center
+  background:#111;
+  color:white;
+  text-align:center;
 }
 
+.contact-box{
+  max-width:750px;
+  margin:auto;
+}
+
+.contact-box p{
+  margin:10px 0;
+}
+
+.contact-links{
+  margin-top:25px;
+}
+
+/* FOOTER */
 footer{
-background:#000;
-color:#aaa;
-text-align:center;
-padding:20px
+  background:#000;
+  color:#aaa;
+  text-align:center;
+  padding:25px 15px;
 }
 
+footer a{
+  color:#aaa;
+  text-decoration:none;
+  margin:0 8px;
+}
+
+footer a:hover{
+  color:#e83e8c;
+}
+
+/* MOBILE */
 @media(max-width:700px){
-.services{grid-template-columns:1fr}
-.hero h1{font-size:35px}
-nav a{display:inline-block;margin:5px}
+
+  header{
+    flex-direction:column;
+    gap:12px;
+  }
+
+  nav a{
+    margin:0 6px;
+    font-size:14px;
+  }
+
+  .hero{
+    padding:70px 20px;
+  }
+
+  .hero h1{
+    font-size:38px;
+  }
+
+  .hero p{
+    font-size:17px;
+  }
+
+  .services,
+  .features{
+    grid-template-columns:1fr;
+  }
+
+  .title{
+    font-size:28px;
+  }
 }
 </style>
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header>
-<div class="logo">SuuqPro Digital</div>
+
+<div class="logo">
+SuuqPro <span>Digital</span>
+</div>
+
 <nav>
 <a href="#home">Home</a>
 <a href="#services">Services</a>
 <a href="#about">About</a>
 <a href="#contact">Contact</a>
 </nav>
+
 </header>
 
+
+<!-- HERO -->
 <section class="hero" id="home">
-<h1>SuuqPro Digital</h1>
-<p>Digital Marketing Agency for Somali Online Businesses.</p>
+
+<h1>SuuqPro <span>Digital</span></h1>
+
+<p>
+Digital Marketing Agency loogu talagalay ganacsiyada Soomaaliyeed.
+Waxaan kaa caawinnaa inaad ganacsigaaga ku kobciso internet-ka.
+</p>
+
 <a class="btn" href="#contact">Nala Soo Xiriir</a>
+<a class="btn" href="#services">Adeegyadeena</a>
+
 </section>
 
+
+<!-- SERVICES -->
 <section id="services">
+
 <h2 class="title">Adeegyadeena</h2>
 
 <div class="services">
 
 <div class="card">
 <h3>📱 Social Media Marketing</h3>
-<p>Waxaan ganacsiyada ka caawinaa kobcinta Facebook, Instagram iyo TikTok.</p>
+<p>
+Waxaan ganacsiyada ka caawinnaa kobcinta Facebook,
+Instagram iyo TikTok si loo helo macaamiil badan.
+</p>
 </div>
 
 <div class="card">
 <h3>🔎 SEO</h3>
-<p>Waxaan website-kaaga ka caawinaa inuu Google si fiican uga muuqdo.</p>
+<p>
+Waxaan website-kaaga ka caawinnaa inuu ka soo muuqdo
+Google iyo search engines kale.
+</p>
 </div>
 
 <div class="card">
-<h3>📢 Digital Advertising</h3>
-<p>Waxaan kuu diyaarinaa xayeysiis digital ah oo gaara macaamiishaada.</p>
+<h3>📣 Digital Advertising</h3>
+<p>
+Waxaan kuu diyaarineynaa xayeysiis digital ah oo
+gaara dadka saxda ah.
+</p>
+</div>
+
+<div class="card">
+<h3>🌐 Website Development</h3>
+<p>
+Waxaan dhisnaa websites qurux badan, mobile-friendly
+ah oo ganacsigaaga matala.
+</p>
+</div>
+
+<div class="card">
+<h3>🎨 Content Creation</h3>
+<p>
+Waxaan abuurnaa content, graphics iyo fariimo
+soo jiita macaamiisha.
+</p>
+</div>
+
+<div class="card">
+<h3>📊 Marketing Strategy</h3>
+<p>
+Waxaan kuu sameynaa qorshe digital marketing oo
+ku saleysan hadafka ganacsigaaga.
+</p>
 </div>
 
 </div>
+
 </section>
 
-<section id="
+
+<!-- ABOUT -->
+<section class="about" id="about">
+
+<h2 class="title">Ku Saabsan <span>SuuqPro Digital</span></h2>
+
+<div class="about-content">
+
+<p>
+SuuqPro Digital waa Digital Marketing Agency diiradda saarta
+ganacsiyada Soomaaliyeed iyo kobacooda online.
+</p>
+
+<p>
+Hadafkeennu waa inaan ganacsiyada siino xalal digital ah oo
+fudud, casri ah, isla markaana keena natiijo dhab ah.
+</p>
+
+<p>
+Waxaan isku darnaa Social Media Marketing, SEO, Advertising,
+Website Development iyo Content Creation.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- WHY US -->
+<section>
+
+<h2 class="title">Maxaa Naga <span>Dooranaya?</span></h2>
+
+<div class="features">
+
+<div class="feature">
+<h1>🎯</h1>
+<h3>Target sax ah</h3>
+<p>
+Waxaan diiradda saarnaa dadka ugu habboon ganacsigaaga.
+</p>
+</div>
+
+<div class="feature">
+<h1>📈</h1>
+<h3>Kobac</h3>
+<p>
+Waxaan kaa caawinnaa inaad si joogto ah online ugu korto.
+</p>
+</div>
+
+<div class="feature">
+<h1>💡</h1>
+<h3>Fikrado Casri ah</h3>
+<p>
+Waxaan isticmaalnaa xeelado digital marketing oo casri ah.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+
+<h2 class="title">Nala Soo Xiriir</h2>
+
+<div class="contact-box">
+
+<p>
+Ma rabtaa inaad ganacsigaaga online kobciso?
+</p>
+
+<p>
+<strong>SuuqPro Digital</strong> ayaa diyaar kuu ah.
+</p>
+
+<div class="contact-links">
+
+<a class="btn"
+href="https://wa.me/"
+target="_blank">
+WhatsApp
+</a>
+
+<a class="btn"
+href="https://www.facebook.com/"
+target="_blank">
+Facebook
+</a>
+
+<a class="btn"
+href="https://www.instagram.com/suuqprodigital/"
+target="_blank">
+Instagram
+</a>
+
+<a class="btn"
+href="https://www.tiktok.com/@suuqpro.digital"
+target="_blank">
+TikTok
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+<p>
+© 2026 SuuqPro Digital. All Rights Reserved.
+</p>
+
+<p>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</p>
+
+</footer>
+
+</body>
+  </html>
