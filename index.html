@@ -6,496 +6,443 @@
 
 <title>SuuqPro Digital | Digital Marketing Agency</title>
 
-<meta name="description" content="SuuqPro Digital waa Digital Marketing Agency oo caawisa ganacsiyada Soomaaliyeed inay online ku koraan.">
+<meta name="description" content="SuuqPro Digital - Digital Marketing, SEO, Social Media, Website Design iyo Advertising.">
 
 <style>
-
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 html{
-  scroll-behavior:smooth;
+    scroll-behavior:smooth;
 }
 
 body{
-  font-family:Arial, Helvetica, sans-serif;
-  background:#0b0b0b;
-  color:#f5f5f5;
-  line-height:1.7;
+    font-family:Arial,Helvetica,sans-serif;
+    color:#1f2937;
+    background:#fff;
+    line-height:1.7;
 }
 
 /* HEADER */
-
 header{
-  background:#050505;
-  padding:25px 20px;
-  text-align:center;
-  position:sticky;
-  top:0;
-  z-index:1000;
-  border-bottom:1px solid #222;
+    background:#fff;
+    padding:18px 7%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
 }
 
 .logo{
-  font-size:32px;
-  font-weight:bold;
-  margin-bottom:18px;
-  color:white;
+    font-size:27px;
+    font-weight:800;
+    color:#1264d6;
 }
 
 .logo span{
-  color:#ec3b91;
+    color:#18b89a;
 }
 
 nav{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:30px;
-  flex-wrap:wrap;
+    display:flex;
+    gap:25px;
 }
 
 nav a{
-  color:white;
-  text-decoration:none;
-  font-size:18px;
-  font-weight:bold;
-  transition:.3s;
+    text-decoration:none;
+    color:#26364a;
+    font-weight:600;
 }
 
 nav a:hover{
-  color:#ec3b91;
+    color:#1264d6;
 }
 
 /* HERO */
-
 .hero{
-  min-height:720px;
-  padding:100px 20px;
-  text-align:center;
+    min-height:650px;
+    padding:100px 7%;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    background:linear-gradient(135deg,#0757c9,#1689f5,#18b89a);
+    color:#fff;
+}
 
-  background:
-  radial-gradient(circle at 50% 20%,#242424 0%,#111 45%,#050505 100%);
-
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
+.hero-content{
+    max-width:850px;
 }
 
 .hero h1{
-  font-size:60px;
-  line-height:1.15;
-  margin-bottom:25px;
+    font-size:58px;
+    line-height:1.15;
+    margin-bottom:25px;
 }
 
 .hero h1 span{
-  color:#ec3b91;
+    color:#dffcf6;
 }
 
 .hero p{
-  max-width:800px;
-  font-size:21px;
-  color:#d4d4d4;
-  margin-bottom:35px;
+    font-size:20px;
+    max-width:720px;
+    margin:0 auto 30px;
+    color:#f4fbff;
 }
 
 .btn{
-  display:inline-block;
-  background:#ec3b91;
-  color:white;
-  padding:16px 34px;
-  border-radius:10px;
-  text-decoration:none;
-  font-size:18px;
-  font-weight:bold;
-  margin:8px;
-  transition:.3s;
-  box-shadow:0 8px 25px rgba(236,59,145,.2);
+    display:inline-block;
+    background:#fff;
+    color:#1264d6;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:8px;
+    font-weight:700;
+    margin:7px;
+    transition:.3s;
 }
 
 .btn:hover{
-  background:#ff5baa;
-  transform:translateY(-4px);
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
 }
 
-/* GENERAL SECTIONS */
+.btn-blue{
+    background:#1264d6;
+    color:#fff;
+}
 
+/* SECTIONS */
 section{
-  padding:90px 20px;
+    padding:80px 7%;
 }
 
-.title{
-  text-align:center;
-  font-size:44px;
-  margin-bottom:20px;
+.section-title{
+    text-align:center;
+    font-size:38px;
+    color:#172b4d;
+    margin-bottom:15px;
 }
 
-.subtitle{
-  text-align:center;
-  max-width:750px;
-  margin:0 auto 50px;
-  color:#aaa;
-  font-size:19px;
+.section-title span{
+    color:#1264d6;
+}
+
+.section-text{
+    max-width:750px;
+    margin:0 auto 45px;
+    text-align:center;
+    color:#667085;
 }
 
 /* SERVICES */
-
-#services{
-  background:#111;
-}
-
 .services{
-  max-width:1100px;
-  margin:auto;
-
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:25px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    max-width:1100px;
+    margin:auto;
 }
 
 .card{
-  background:#1b1b1b;
-  border:1px solid #333;
-  border-radius:18px;
-  padding:40px 25px;
-  text-align:center;
-  min-height:290px;
-
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-
-  transition:.3s;
+    background:#fff;
+    padding:35px 25px;
+    text-align:center;
+    border-radius:14px;
+    border:1px solid #e5eaf0;
+    box-shadow:0 8px 25px rgba(20,70,120,.08);
+    transition:.3s;
 }
 
 .card:hover{
-  transform:translateY(-8px);
-  border-color:#ec3b91;
-  box-shadow:0 15px 40px rgba(236,59,145,.15);
+    transform:translateY(-7px);
+    box-shadow:0 15px 35px rgba(20,70,120,.14);
 }
 
 .icon{
-  font-size:48px;
-  margin-bottom:18px;
+    width:65px;
+    height:65px;
+    margin:0 auto 18px;
+    border-radius:50%;
+    background:#eaf4ff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
 }
 
 .card h3{
-  font-size:24px;
-  margin-bottom:15px;
+    color:#17365d;
+    margin-bottom:12px;
+    font-size:21px;
 }
 
 .card p{
-  color:#c8c8c8;
-  font-size:17px;
+    color:#687588;
 }
 
 /* ABOUT */
-
-#about{
-  background:#151515;
+.about-section{
+    background:#f5f9ff;
 }
 
 .about{
-  max-width:900px;
-  margin:auto;
-  text-align:center;
-}
-
-.about h2{
-  font-size:44px;
-  margin-bottom:30px;
-}
-
-.about h2 span{
-  color:#ec3b91;
+    max-width:950px;
+    margin:auto;
+    text-align:center;
 }
 
 .about p{
-  color:#d0d0d0;
-  font-size:19px;
-  margin-bottom:20px;
+    color:#596779;
+    font-size:18px;
+    margin-bottom:18px;
 }
 
-/* WHY US */
+/* WHY */
+.why-section{
+    background:#fff;
+}
 
 .why{
-  max-width:1000px;
-  margin:auto;
-
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:25px;
+    max-width:1050px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
 }
 
 .why-card{
-  text-align:center;
-  padding:35px 20px;
-  background:#1b1b1b;
-  border:1px solid #333;
-  border-radius:18px;
-}
-
-.why-card .icon{
-  font-size:42px;
+    text-align:center;
+    padding:30px 20px;
+    border-radius:14px;
+    background:#f8fbff;
+    border:1px solid #e4edf7;
 }
 
 .why-card h3{
-  margin-bottom:12px;
+    color:#17365d;
+    margin:12px 0;
 }
 
 .why-card p{
-  color:#bbb;
+    color:#697789;
 }
 
 /* PORTFOLIO */
-
-#portfolio{
-  background:#111;
+.portfolio-section{
+    background:#f5f9ff;
 }
 
 .portfolio{
-  max-width:1000px;
-  margin:auto;
-
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:25px;
+    max-width:1050px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
 }
 
 .project{
-  background:#1b1b1b;
-  border:1px solid #333;
-  border-radius:18px;
-  padding:35px 20px;
-  text-align:center;
-  transition:.3s;
-}
-
-.project:hover{
-  transform:translateY(-6px);
-  border-color:#ec3b91;
+    background:#fff;
+    border-radius:14px;
+    padding:35px 25px;
+    text-align:center;
+    border:1px solid #e2eaf3;
+    box-shadow:0 8px 25px rgba(20,70,120,.07);
 }
 
 .project-icon{
-  font-size:55px;
-  margin-bottom:20px;
+    font-size:50px;
+    margin-bottom:15px;
 }
 
 .project h3{
-  font-size:23px;
-  margin-bottom:12px;
+    color:#17365d;
+    margin-bottom:10px;
 }
 
 .project p{
-  color:#aaa;
+    color:#687588;
 }
 
 /* CONTACT */
-
-#contact{
-  background:#050505;
-  text-align:center;
+.contact-section{
+    background:linear-gradient(135deg,#0757c9,#1689f5);
+    color:#fff;
 }
 
-.contact-box{
-  max-width:850px;
-  margin:auto;
+.contact-section .section-title{
+    color:#fff;
 }
 
-.contact-box h2{
-  font-size:44px;
-  margin-bottom:20px;
+.contact-section .section-text{
+    color:#e8f4ff;
 }
 
-.contact-box h2 span{
-  color:#ec3b91;
+.contact{
+    max-width:850px;
+    margin:auto;
 }
 
-.contact-box p{
-  color:#ccc;
-  font-size:19px;
-  margin-bottom:30px;
+.contact-form{
+    background:#fff;
+    padding:35px;
+    border-radius:16px;
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
 }
 
-.social{
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:15px;
-  margin-top:25px;
+.form-group{
+    margin-bottom:18px;
 }
 
-.social a{
-  display:inline-block;
-  background:#1c1c1c;
-  color:white;
-  text-decoration:none;
-  border:1px solid #333;
-  padding:14px 24px;
-  border-radius:10px;
-  font-weight:bold;
-  transition:.3s;
+.form-group label{
+    display:block;
+    color:#26364a;
+    font-weight:600;
+    margin-bottom:7px;
 }
 
-.social a:hover{
-  background:#ec3b91;
-  border-color:#ec3b91;
-  transform:translateY(-3px);
+.form-group input,
+.form-group textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #d7e0ea;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+    border-color:#1264d6;
+}
+
+.form-group textarea{
+    min-height:140px;
+    resize:vertical;
+}
+
+.send-btn{
+    width:100%;
+    border:none;
+    cursor:pointer;
+    background:#1264d6;
+    color:#fff;
+    padding:15px;
+    border-radius:8px;
+    font-size:17px;
+    font-weight:700;
+}
+
+.send-btn:hover{
+    background:#084fae;
+}
+
+.contact-info{
+    text-align:center;
+    margin-top:25px;
+}
+
+.contact-info p{
+    margin:7px;
 }
 
 /* FOOTER */
-
 footer{
-  background:#000;
-  color:#888;
-  text-align:center;
-  padding:35px 20px;
-  border-top:1px solid #222;
+    background:#09254a;
+    color:#c9d8eb;
+    text-align:center;
+    padding:35px 20px;
 }
 
-footer p{
-  margin-bottom:15px;
+.footer-logo{
+    font-size:25px;
+    font-weight:800;
+    color:#fff;
+    margin-bottom:10px;
+}
+
+.footer-logo span{
+    color:#18b89a;
+}
+
+.footer-links{
+    margin:15px 0;
 }
 
 .footer-links a{
-  color:#999;
-  text-decoration:none;
-  margin:0 10px;
+    color:#c9d8eb;
+    text-decoration:none;
+    margin:0 9px;
 }
 
 .footer-links a:hover{
-  color:#ec3b91;
-}
-
-/* BACK TO TOP */
-
-.top{
-  position:fixed;
-  right:20px;
-  bottom:20px;
-
-  width:50px;
-  height:50px;
-
-  background:#ec3b91;
-  color:white;
-
-  border-radius:50%;
-
-  display:flex;
-  align-items:center;
-  justify-content:center;
-
-  text-decoration:none;
-  font-size:22px;
-  font-weight:bold;
-
-  box-shadow:0 5px 20px rgba(236,59,145,.3);
-
-  z-index:999;
+    color:#fff;
 }
 
 /* MOBILE */
+@media(max-width:800px){
 
-@media(max-width:900px){
+    header{
+        flex-direction:column;
+        gap:15px;
+        padding:18px 12px;
+    }
 
-  .services{
-    grid-template-columns:1fr 1fr;
-  }
+    nav{
+        gap:15px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
 
-  .portfolio{
-    grid-template-columns:1fr 1fr;
-  }
+    nav a{
+        font-size:15px;
+    }
 
-  .why{
-    grid-template-columns:1fr 1fr;
-  }
+    .hero{
+        min-height:600px;
+        padding:80px 20px;
+    }
 
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .services,
+    .portfolio,
+    .why{
+        grid-template-columns:1fr;
+        max-width:550px;
+    }
+
+    .section-title{
+        font-size:32px;
+    }
+
+    section{
+        padding:65px 18px;
+    }
+
+    .contact-form{
+        padding:25px 18px;
+    }
 }
-
-@media(max-width:600px){
-
-  header{
-    padding:22px 15px;
-  }
-
-  .logo{
-    font-size:29px;
-  }
-
-  nav{
-    gap:18px;
-  }
-
-  nav a{
-    font-size:16px;
-  }
-
-  .hero{
-    min-height:680px;
-    padding:80px 18px;
-  }
-
-  .hero h1{
-    font-size:43px;
-  }
-
-  .hero p{
-    font-size:18px;
-  }
-
-  .btn{
-    width:90%;
-    max-width:330px;
-  }
-
-  section{
-    padding:70px 16px;
-  }
-
-  .title{
-    font-size:35px;
-  }
-
-  .subtitle{
-    font-size:17px;
-  }
-
-  .services{
-    grid-template-columns:1fr;
-  }
-
-  .portfolio{
-    grid-template-columns:1fr;
-  }
-
-  .why{
-    grid-template-columns:1fr;
-  }
-
-  .card{
-    min-height:260px;
-  }
-
-  .contact-box h2{
-    font-size:35px;
-  }
-
-}
-
 </style>
 </head>
-
 
 <body>
 
 <!-- HEADER -->
-
 <header>
 
 <div class="logo">
@@ -503,158 +450,111 @@ SuuqPro <span>Digital</span>
 </div>
 
 <nav>
-
 <a href="#home">Home</a>
-
 <a href="#services">Services</a>
-
 <a href="#about">About</a>
-
 <a href="#portfolio">Portfolio</a>
-
 <a href="#contact">Contact</a>
-
 </nav>
 
 </header>
 
 
 <!-- HERO -->
-
 <section class="hero" id="home">
 
+<div class="hero-content">
+
 <h1>
-We Grow Your<br>
-<span>Business Online</span>
+Grow Your Business <span>Online</span>
 </h1>
 
 <p>
 SuuqPro Digital waa Digital Marketing Agency
-oo caawisa ganacsiyada Soomaaliyeed inay helaan
-macaamiil badan, muuqaalkoodana online ku kobciyaan.
+caawisa ganacsiyada inay helaan macaamiil badan,
+dhisaan brand xooggan, kuna koraan online.
 </p>
+
+<a class="btn" href="#services">
+Our Services
+</a>
 
 <a class="btn" href="#contact">
 Start Your Project
 </a>
 
+</div>
+
 </section>
 
 
 <!-- SERVICES -->
-
 <section id="services">
 
-<h2 class="title">
-Our <span style="color:#ec3b91;">Services</span>
+<h2 class="section-title">
+Our <span>Services</span>
 </h2>
 
-<p class="subtitle">
-Waxaan ganacsiyada ka caawinnaa inay online ku koraan,
-macaamiil cusub helaan, oo brand-kooda dhisaan.
+<p class="section-text">
+Waxaan bixinnaa adeegyo digital ah oo kaa caawinaya
+in ganacsigaaga uu online ku koro.
 </p>
-
 
 <div class="services">
 
-
 <div class="card">
-
 <div class="icon">📱</div>
-
 <h3>Social Media Marketing</h3>
-
 <p>
-Waxaan kuu dhisnaa strategy iyo content
-loogu talagalay Facebook, Instagram iyo TikTok.
+Facebook, Instagram iyo TikTok marketing
+si loo kordhiyo engagement iyo customers.
 </p>
-
 </div>
 
-
 <div class="card">
-
 <div class="icon">🔎</div>
-
 <h3>SEO</h3>
-
 <p>
 Waxaan kaa caawinnaa in website-kaaga
-laga helo Google iyo search engines.
+Google laga helo oo traffic badan helo.
 </p>
-
 </div>
 
-
 <div class="card">
-
-<div class="icon">📣</div>
-
+<div class="icon">📢</div>
 <h3>Digital Advertising</h3>
-
 <p>
-Waxaan abuurnaa xayeysiis digital ah
-oo gaara dadka saxda ah.
+Xayeysiisyo online ah oo gaara
+macaamiisha ku habboon ganacsigaaga.
 </p>
-
 </div>
 
-
 <div class="card">
-
 <div class="icon">🌐</div>
-
-<h3>Website Development</h3>
-
+<h3>Website Design</h3>
 <p>
-Waxaan dhisnaa websites qurux badan,
+Websites casri ah, qurux badan,
 mobile-friendly ah oo ganacsigaaga matala.
 </p>
-
 </div>
 
-
 <div class="card">
-
 <div class="icon">🎨</div>
-
 <h3>Content Creation</h3>
-
 <p>
-Waxaan sameynaa content soo jiidasho leh
-oo kor u qaada brand-kaaga.
+Waxaan abuurnaa content iyo designs
+soo jiita audience-kaaga.
 </p>
-
 </div>
 
-
 <div class="card">
-
-<div class="icon">📧</div>
-
-<h3>Email Marketing</h3>
-
-<p>
-Waxaan kaa caawinnaa inaad macaamiisha
-kula xiriirto email campaigns.
-</p>
-
-</div>
-
-
-<div class="card">
-
 <div class="icon">📊</div>
-
 <h3>Marketing Strategy</h3>
-
 <p>
-Waxaan kuu sameynnaa qorshe marketing
-oo ku saleysan hadafka ganacsigaaga.
+Qorshe digital marketing ah oo ku saleysan
+hadafka iyo baahida ganacsigaaga.
 </p>
-
 </div>
-
 
 </div>
 
@@ -662,30 +562,28 @@ oo ku saleysan hadafka ganacsigaaga.
 
 
 <!-- ABOUT -->
-
-<section id="about">
+<section class="about-section" id="about">
 
 <div class="about">
 
-<h2>
+<h2 class="section-title">
 About <span>SuuqPro Digital</span>
 </h2>
 
 <p>
 SuuqPro Digital waa Digital Marketing Agency
-diiradda saarta ganacsiyada Soomaaliyeed.
+diiradda saarta kobcinta ganacsiyada online.
 </p>
 
 <p>
-Hadafkeennu waa inaan ganacsiyada siino
-xalal digital ah oo fudud, casri ah,
-isla markaana keena natiijo dhab ah.
+Waxaan isku darnnaa creativity, technology iyo
+digital marketing si aan ganacsiyada uga caawino
+inay helaan natiijooyin wanaagsan.
 </p>
 
 <p>
-Waxaan isku darnnaa Social Media Marketing,
-SEO, Advertising, Website Development,
-Content Creation iyo Email Marketing.
+Hadafkeennu waa inaan noqono partner-ka
+digital-ka ah ee ganacsigaaga.
 </p>
 
 </div>
@@ -693,64 +591,46 @@ Content Creation iyo Email Marketing.
 </section>
 
 
-<!-- WHY US -->
+<!-- WHY CHOOSE US -->
+<section class="why-section">
 
-<section>
-
-<h2 class="title">
-Maxaa Naga <span style="color:#ec3b91;">Dooranaya?</span>
+<h2 class="section-title">
+Why <span>Choose Us?</span>
 </h2>
 
-<p class="subtitle">
-Waxaan diiradda saarnaa natiijo, koboc iyo
-xiriir wanaagsan oo aan la yeelanno macaamiisheena.
+<p class="section-text">
+Waxaan diiradda saarnaa tayada, natiijada
+iyo fahamka baahida macmiilka.
 </p>
-
 
 <div class="why">
 
-
 <div class="why-card">
-
 <div class="icon">🎯</div>
-
 <h3>Target Sax ah</h3>
-
 <p>
-Waxaan diiradda saarnaa dadka ugu habboon
-ganacsigaaga.
+Waxaan kaa caawinnaa inaad gaarto
+audience-ka saxda ah.
 </p>
-
 </div>
 
-
 <div class="why-card">
-
 <div class="icon">📈</div>
-
-<h3>Kobac</h3>
-
+<h3>Growth</h3>
 <p>
-Waxaan kaa caawinnaa inaad si joogto ah
-online ugu korto.
+Waxaan diiradda saarnaa kobcinta
+brand-ka iyo macaamiisha.
 </p>
-
 </div>
-
 
 <div class="why-card">
-
 <div class="icon">💡</div>
-
-<h3>Fikrado Casri ah</h3>
-
+<h3>Creative Ideas</h3>
 <p>
-Waxaan isticmaalnaa xeelado digital marketing
-oo casri ah.
+Waxaan isticmaalnaa fikrado cusub
+oo soo jiita customers.
 </p>
-
 </div>
-
 
 </div>
 
@@ -758,63 +638,45 @@ oo casri ah.
 
 
 <!-- PORTFOLIO -->
+<section class="portfolio-section" id="portfolio">
 
-<section id="portfolio">
-
-<h2 class="title">
-Our <span style="color:#ec3b91;">Portfolio</span>
+<h2 class="section-title">
+Our <span>Portfolio</span>
 </h2>
 
-<p class="subtitle">
-Qaar ka mid ah adeegyada iyo mashaariicda
-SuuqPro Digital ay qaban karto.
+<p class="section-text">
+Tusaalooyin adeegyada iyo mashaariicda
+aan ganacsiyada u qaban karno.
 </p>
-
 
 <div class="portfolio">
 
-
 <div class="project">
-
 <div class="project-icon">🌐</div>
-
-<h3>Website Design</h3>
-
+<h3>Business Website</h3>
 <p>
-Website qurux badan oo mobile iyo desktop
-labadaba si fiican uga shaqeeya.
+Website professional ah oo ganacsiga
+online uga dhigaya mid la heli karo.
 </p>
-
 </div>
 
-
 <div class="project">
-
 <div class="project-icon">📱</div>
-
-<h3>Social Media</h3>
-
+<h3>Social Media Campaign</h3>
 <p>
-Content iyo strategy loogu talagalay
-Facebook, Instagram iyo TikTok.
+Social media strategy iyo content
+loogu talagalay kobcinta brand-ka.
 </p>
-
 </div>
-
 
 <div class="project">
-
 <div class="project-icon">📣</div>
-
-<h3>Digital Ads</h3>
-
+<h3>Advertising Campaign</h3>
 <p>
-Xayeysiis digital ah oo loogu talagalay
-inuu gaaro macaamiisha saxda ah.
+Digital advertising loogu talagalay
+helitaanka customers cusub.
 </p>
-
 </div>
-
 
 </div>
 
@@ -822,39 +684,58 @@ inuu gaaro macaamiisha saxda ah.
 
 
 <!-- CONTACT -->
+<section class="contact-section" id="contact">
 
-<section id="contact">
-
-<div class="contact-box">
-
-<h2>
-Nala Soo <span>Xiriir</span>
+<h2 class="section-title">
+Let's Work <span>Together</span>
 </h2>
 
-<p>
-Ma rabtaa inaad ganacsigaaga online kobciso?
-<br>
-<strong>SuuqPro Digital</strong> ayaa diyaar kuu ah.
+<p class="section-text">
+Buuxi xogta hoose, kadib fariintaada waxaa si toos ah
+loogu diyaarinayaa WhatsApp-ka SuuqPro Digital.
 </p>
 
-<a class="btn" href="https://wa.me/252618602325" target="_blank">
-💬 WhatsApp
-</a>
+<div class="contact">
 
+<form class="contact-form" onsubmit="sendWhatsApp(event)">
 
-<div class="social">
+<div class="form-group">
+<label for="name">Magacaaga</label>
+<input
+type="text"
+id="name"
+placeholder="Geli magacaaga"
+required>
+</div>
 
-<a href="#" target="_blank">
-📘 Facebook
-</a>
+<div class="form-group">
+<label for="email">Email-kaaga</label>
+<input
+type="email"
+id="email"
+placeholder="Geli email-kaaga"
+required>
+</div>
 
-<a href="#" target="_blank">
-📸 Instagram
-</a>
+<div class="form-group">
+<label for="message">Fariintaada</label>
+<textarea
+id="message"
+placeholder="Qor fariintaada..."
+required></textarea>
+</div>
 
-<a href="#" target="_blank">
-🎵 TikTok
-</a>
+<button class="send-btn" type="submit">
+💬 Send Message via WhatsApp
+</button>
+
+</form>
+
+<div class="contact-info">
+
+<p>📱 WhatsApp: +252 61 860 2325</p>
+
+<p>🌐 SuuqPro Digital</p>
 
 </div>
 
@@ -864,36 +745,62 @@ Ma rabtaa inaad ganacsigaaga online kobciso?
 
 
 <!-- FOOTER -->
-
 <footer>
 
+<div class="footer-logo">
+SuuqPro <span>Digital</span>
+</div>
+
 <p>
-© 2026 SuuqPro Digital. All Rights Reserved.
+Digital Marketing Agency
 </p>
 
 <div class="footer-links">
 
 <a href="#home">Home</a>
-
 <a href="#services">Services</a>
-
 <a href="#about">About</a>
-
 <a href="#portfolio">Portfolio</a>
-
 <a href="#contact">Contact</a>
 
 </div>
 
+<p>
+© 2026 SuuqPro Digital. All Rights Reserved.
+</p>
+
 </footer>
 
 
-<!-- BACK TO TOP -->
+<script>
 
-<a class="top" href="#home">
-↑
-</a>
+function sendWhatsApp(event){
 
+    event.preventDefault();
+
+    const name =
+    document.getElementById("name").value;
+
+    const email =
+    document.getElementById("email").value;
+
+    const message =
+    document.getElementById("message").value;
+
+    const text =
+    "Hello SuuqPro Digital!%0A%0A" +
+    "Name: " + encodeURIComponent(name) +
+    "%0AEmail: " + encodeURIComponent(email) +
+    "%0A%0AMessage:%0A" +
+    encodeURIComponent(message);
+
+    const whatsapp =
+    "https://wa.me/252618602325?text=" + text;
+
+    window.open(whatsapp,"_blank");
+}
+
+</script>
 
 </body>
   </html>
