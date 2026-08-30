@@ -731,29 +731,58 @@ required></textarea>
 
 </form>
 
-<div class="contact-info">
+.social-icons{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:18px;
+  margin-top:25px;
+}
 
-<p>📱 WhatsApp: +252 61 860 2325</p>
+.social-icon{
+  width:52px;
+  height:52px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  color:#fff !important;
+  font-size:25px;
+  font-weight:bold;
+  transition:.3s;
+}
 
-<p>🌐 SuuqPro Digital</p>
+.social-icon:hover{
+  transform:translateY(-5px) scale(1.05);
+}
 
-<div class="social">
+.facebook{
+  background:#1877f2;
+}
 
-<a href="https://www.facebook.com/share/1dVzwo9YFf/" target="_blank">
-📘 Facebook
-</a>
+.instagram{
+  background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);
+}
 
-<a href="https://www.instagram.com/suuqprodigital/" target="_blank">
-📸 Instagram
-</a>
+.whatsapp{
+  background:#25d366;
+}
 
-<a href="https://www.tiktok.com/@suuqpro.digital" target="_blank">
-🎵 TikTok
-</a>
+.tiktok{
+  background:#111;
+}
 
-</div>
+@media(max-width:600px){
+  .social-icons{
+    gap:12px;
+  }
 
-</div>
+  .social-icon{
+    width:48px;
+    height:48px;
+  }
+}
 
 </section>
 
